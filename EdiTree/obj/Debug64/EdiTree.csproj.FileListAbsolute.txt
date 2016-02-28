@@ -1,7 +1,0 @@
-C:\Users\goznauk\Documents\Visual Studio 2015\Projects\EdiTree\EdiTree\bin\EdiTree.dll
-C:\Users\goznauk\Documents\Visual Studio 2015\Projects\EdiTree\EdiTree\bin\EdiTree.pdb
-C:\Users\goznauk\Documents\Visual Studio 2015\Projects\EdiTree\EdiTree\obj\Debug64\EdiTree.dll
-C:\Users\goznauk\Documents\Visual Studio 2015\Projects\EdiTree\EdiTree\obj\Debug64\EdiTree.pdb
-C:\Users\goznauk\Documents\Visual Studio 2015\Projects\EdiTree\EdiTree\obj\Debug64\EdiTree.csprojResolveAssemblyReference.cache
-C:\Users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\obj\Debug64\EdiTree.Properties.Resources.resources
-C:\Users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\obj\Debug64\EdiTree.csproj.GenerateResource.Cache

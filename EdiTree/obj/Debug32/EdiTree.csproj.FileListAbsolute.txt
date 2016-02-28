@@ -1,5 +1,0 @@
-c:\users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\bin\EdiTree.dll
-c:\users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\bin\EdiTree.pdb
-c:\users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\obj\Debug32\EdiTree.csprojResolveAssemblyReference.cache
-c:\users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\obj\Debug32\EdiTree.dll
-c:\users\goznauk\documents\visual studio 2015\Projects\EdiTree\EdiTree\obj\Debug32\EdiTree.pdb
