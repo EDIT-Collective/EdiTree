@@ -30,13 +30,13 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 
-namespace EdiTree {
+namespace EdiTree.Components {
     public class PartitionListAdvComponent : GH_Component {
         public PartitionListAdvComponent()
             : base("Partition List Adv", "Partition", Resources.partitionlist_description, "EDIT", "EdiTree") {
         }
 
-        protected override Bitmap Icon => null;
+        protected override Bitmap Icon => Resources.partitionlist_24x24;
         public override Guid ComponentGuid => new Guid("{b2912c22-bad1-4bec-b00e-f11ec13f26a8}");
 
         protected override void RegisterInputParams(GH_InputParamManager pManager) {

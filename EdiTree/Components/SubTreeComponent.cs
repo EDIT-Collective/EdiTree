@@ -32,7 +32,7 @@ using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Parameters;
 using Grasshopper.Kernel.Types;
 
-namespace EdiTree {
+namespace EdiTree.Components {
     public class SubTreeComponent : GH_Component, IGH_VariableParameterComponent {
         public SubTreeComponent()
             : base("SubTree", "SubTree", Resources.subtree_description, "EDIT", "EdiTree") {

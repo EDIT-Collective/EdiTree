@@ -89,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <None Include="Resources\splitlistmulti_24x24.png" />
+    <None Include="Resources\partitionlist_24x24.png" />
+    <None Include="Resources\editree.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -89,11 +89,51 @@ namespace EdiTree.Properties {
         }
         
         /// <summary>
+        ///   EdiTree is a set of useful open source components developed by EDIT Collective to provide easier
+        ///manipulation of data structure and data management.과(와) 유사한 지역화된 문자열을 찾습니다.
+        /// </summary>
+        internal static string editree_description {
+            get {
+                return ResourceManager.GetString("editree_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap editree_logo {
+            get {
+                object obj = ResourceManager.GetObject("editree_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap partitionlist_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("partitionlist_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Partition a list into sub-lists by partition size과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string partitionlist_description {
             get {
                 return ResourceManager.GetString("partitionlist_description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap splitlistmulti_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("splitlistmulti_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

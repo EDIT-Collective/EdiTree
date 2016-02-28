@@ -30,7 +30,7 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 
-namespace EdiTree {
+namespace EdiTree.Components {
     public class DivideListComponent : GH_Component {
         public DivideListComponent()
             : base("Divide List", "Divide List", Resources.dividelist_description, "EDIT", "EdiTree") {

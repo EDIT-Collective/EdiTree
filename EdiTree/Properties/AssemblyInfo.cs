@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using EdiTree.Properties;
 using Rhino.PlugIns;
 
 
@@ -8,9 +9,9 @@ using Rhino.PlugIns;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EdiTree")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("EdiTree is a set of useful open source components developed by EDIT Collective to provide easier manipulation of data structure and data management.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("EDIT COLLECTIVE")]
 [assembly: AssemblyProduct("EdiTree")]
 [assembly: AssemblyCopyright("Copyright © 2016 EDIT Collective. Rights are granted as in the LICENSE.txt file.")]
 [assembly: AssemblyTrademark("")]

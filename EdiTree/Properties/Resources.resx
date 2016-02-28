@@ -127,6 +127,13 @@
   <data name="dividelist_description_full" xml:space="preserve">
     <value>Divide a list into sub-lists by the predefined number (divisor). Any remaining item will be stored in the seperate path followed by last branch.</value>
   </data>
+  <data name="editree_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editree_description" xml:space="preserve">
+    <value>EdiTree is a set of useful open source components developed by EDIT Collective to provide easier
+manipulation of data structure and data management.</value>
+  </data>
   <data name="partitionlist_description" xml:space="preserve">
     <value>Partition a list into sub-lists by partition size</value>
   </data>
@@ -148,5 +155,11 @@
 &lt;BR&gt;
 Should the path index at placeholders be not assigned, the component will interpret the
 value of the path index as “?”.</value>
+  </data>
+  <data name="partitionlist_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\partitionlist_24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splitlistmulti_24x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splitlistmulti_24x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

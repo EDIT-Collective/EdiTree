@@ -30,14 +30,14 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 
-namespace EdiTree {
+namespace EdiTree.Components {
     public class SplitListMultiComponent : GH_Component {
         public SplitListMultiComponent()
             : base("Split List Multi", "Split Multi", Resources.dividelist_description, "EDIT", "EdiTree") {
         }
 
         protected override string HelpDescription => Resources.dividelist_description_full;
-        protected override Bitmap Icon => null;
+        protected override Bitmap Icon => Resources.splitlistmulti_24x24;
         public override Guid ComponentGuid => new Guid("{b8c107ac-2578-4c2c-b4e4-2ea56912d386}");
 
         protected override void RegisterInputParams(GH_InputParamManager pManager) {
