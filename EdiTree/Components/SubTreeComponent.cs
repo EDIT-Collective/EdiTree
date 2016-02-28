@@ -114,9 +114,7 @@ namespace EdiTree.Components {
             };
         }
 
-        bool IGH_VariableParameterComponent.DestroyParameter(GH_ParameterSide side, int index) {
-            return true;
-        }
+        bool IGH_VariableParameterComponent.DestroyParameter(GH_ParameterSide side, int index) => true;
 
         public void VariableParameterMaintenance() {
             for (var i = 1; i < Params.Input.Count; i++) {
