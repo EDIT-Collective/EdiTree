@@ -62,21 +62,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DivideListComponent.cs" />
-    <Compile Include="PartitionListAdvComponent.cs" />
+    <Compile Include="Components\DivideListComponent.cs" />
+    <Compile Include="Components\PartitionListAdvComponent.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SubTreeComponent.cs" />
+    <Compile Include="Components\SubTreeComponent.cs" />
     <Compile Include="EdiTreeInfo.cs" />
-    <Compile Include="SplitListMultiComponent.cs" />
+    <Compile Include="Components\SplitListMultiComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
