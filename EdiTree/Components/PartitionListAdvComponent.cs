@@ -25,6 +25,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Linq;
 using EdiTree.Properties;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
@@ -41,7 +42,7 @@ namespace EdiTree.Components {
 
         protected override void RegisterInputParams(GH_InputParamManager pManager) {
             pManager.AddGenericParameter("List", "L", "List to partition", GH_ParamAccess.list);
-            pManager.AddIntegerParameter("Size", "S", "Size of partitions", GH_ParamAccess.item);
+            pManager.AddIntegerParameter("Size", "S", "Size of partitions", GH_ParamAccess.list);
         }
 
         protected override void RegisterOutputParams(GH_OutputParamManager pManager) {
@@ -54,16 +55,19 @@ namespace EdiTree.Components {
             var remainder = new GH_Structure<IGH_Goo>();
 
             var list = new List<IGH_Goo>();
-            var size = 0;
+            var sizeList = new List<int>();
 
             if (!DA.GetDataList(0, list)) { return; }
-            if (!DA.GetData(1, ref size) || size == 0) { return; }
+            if (!DA.GetDataList(1, sizeList) | sizeList.Contains(0)) { return; }
 
-            var remain = list.Count%size;
-
+            var remain = list.Count % sizeList.Sum();
             var num = -1;
-            for (var i = 0; i < list.Count - remain; i += size) {
-                quotient.AppendRange(list.GetRange(i, size), new GH_Path(++num));
+            for (var i = 0; i < list.Count - remain; i += sizeList.Sum()) {
+                var tmpsum = 0;
+                foreach (var s in sizeList) {
+                    quotient.AppendRange(list.GetRange(i + tmpsum, s), new GH_Path(++num));
+                    tmpsum += s;
+                }
             }
             remainder.AppendRange(list.GetRange(list.Count - remain, remain), new GH_Path(++num));
 
