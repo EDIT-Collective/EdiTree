@@ -60,10 +60,10 @@ namespace EdiTree.Components {
             if (!DA.GetDataList(0, list)) { return; }
             if (!DA.GetData(1, ref divisor) || divisor == 0) { return; }
 
-            var size = list.Count/divisor;
+            var size = list.Count / divisor;
             if (size < 1) { return; }
 
-            var remain = list.Count%divisor;
+            var remain = list.Count % divisor;
 
             var num = -1;
             for (var i = 0; i < list.Count - remain; i += size) {

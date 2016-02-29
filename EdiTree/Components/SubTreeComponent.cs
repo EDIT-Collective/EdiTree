@@ -46,7 +46,7 @@ namespace EdiTree.Components {
 
         protected override string HelpDescription => Resources.subtree_description_full;
         protected override Bitmap Icon => Resources.subtree_24x24;
-        public override Guid ComponentGuid => new Guid("{b0f8796c-24bb-4dbf-8966-91737e9b93b4}"); 
+        public override Guid ComponentGuid => new Guid("{b0f8796c-24bb-4dbf-8966-91737e9b93b4}");
 
         protected override void RegisterInputParams(GH_InputParamManager pManager) {
             pManager.AddGenericParameter("Tree", "T", "Data Tree", GH_ParamAccess.tree);
@@ -67,7 +67,7 @@ namespace EdiTree.Components {
             var pList = new List<int?>();
             int? t = 0;
 
-            if (!DA.GetDataTree(0, out tree)) return;
+            if (!DA.GetDataTree(0, out tree)) { return; }
             for (var i = 1; i < Params.Input.Count; i++) { pList.Add(DA.GetData(i, ref t) ? t : null); }
 
             var subtree = new GH_Structure<IGH_Goo>();

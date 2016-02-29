@@ -60,9 +60,8 @@ namespace EdiTree.Components {
             var prev = 0;
             var num = 0;
             foreach (var i in indexList) {
-                tree.AppendRange(list.GetRange(prev, i - prev), new GH_Path(num));
+                tree.AppendRange(list.GetRange(prev, i - prev), new GH_Path(num++));
                 prev = i;
-                num++;
             }
             tree.AppendRange(list.GetRange(prev, list.Count - prev), new GH_Path(num));
 
