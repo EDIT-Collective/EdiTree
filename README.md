@@ -5,8 +5,9 @@ EdiTree is the first set of useful open source Rhino Grasshopper components deve
 Discussions for help on using or configuring this addon can be found at:
 * http://www.food4rhino.com/project/editree
 
--------
 
+
+##FEATURES
 It offers some additional features as follows, in addition to the existing data management components:
 
 ###SubTree
