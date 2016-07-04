@@ -32,3 +32,6 @@ Split a list into separate parts at a specified index number. Similar to the exi
 
 ![SplitListMulti](https://raw.githubusercontent.com/EDIT-Collective/EdiTree/master/images/Split_Multi_List.png)
 
+
+##License
+EdiTree is released under the [MIT license](LICENSE.txt).
