@@ -3,7 +3,7 @@
 EdiTree is the first set of useful open source Rhino Grasshopper components developed by EDIT Collective to provide easier manipulation of data structure and data management.
 
 Discussions for help on using or configuring this addon can be found at:
-* http://www.food4rhino.com/project/editree
+* http://www.food4rhino.com/app/editree
 
 
 
